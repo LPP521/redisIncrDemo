@@ -1,6 +1,6 @@
 import redis
 
-#连接Redis服务器
+#连接Redis服务器的类
 class getRC():
     def getRedisClient():
         rdconn = redis.Redis(host='127.0.0.1', port=6379)
